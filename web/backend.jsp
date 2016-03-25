@@ -2,19 +2,18 @@
   Created by IntelliJ IDEA.
   User: jack
   Date: 16-3-23
-  Time: 下午4:54
+  Time: 下午5:25
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>blog_struts2</title>
-  </head>
-  <body>
-  <p>主页</p>
-  <p>登录</p>
-  <p>文章列表:</p>
-  <p>文章一标题</p>
-  <p>文章一内容</p>
-  </body>
+<head>
+    <title>后台页面</title>
+</head>
+<body>
+<p>下面的都弄成超链接</p>
+<p>写文章</p>
+<p>看文章</p>
+<p>设置(改密码什么的)</p>
+</body>
 </html>

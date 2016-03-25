@@ -5,4 +5,14 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="login" class="rgou.action.login">
+            <result name="success">
+                backend.jsp
+            </result>
+            <result name="fail">
+                fail.jsp
+            </result>
+        </action>
+    </package>
 </struts>
